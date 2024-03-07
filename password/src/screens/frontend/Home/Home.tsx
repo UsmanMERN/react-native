@@ -98,11 +98,11 @@ export default function Home() {
                         </>
                     )}
                 </Formik>
-                <View style={[styles.resultContainer, styles.evalution]}>
+                {isPasswordGenerated && <View style={[styles.resultContainer, styles.evalution]}>
                     <Text style={styles.resultText}>Generated Password:</Text>
                     <Text selectable={true} style={styles.generatedPassword}>{password}</Text>
                     <Text style={styles.description}>Long Press to Copy</Text>
-                </View>
+                </View>}
 
             </SafeAreaView>
         </ScrollView>
