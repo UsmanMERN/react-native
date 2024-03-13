@@ -11,17 +11,17 @@ export default function ProductItems({ product }: ProductProps) {
             <Image source={{ uri: product.imageUrl }} style={styles.image} />
             <View >
                 <Text style={styles.name}>{product.name}</Text>
-            </View>
-            <View style={[styles.rowContainer, styles.ratingContainer]}>
-                <View style={styles.rating}>
-                    <Text style={styles.ratingText}>{product.rating}&#9733;</Text>
+                <View style={[styles.rowContainer, styles.ratingContainer]}>
+                    <View style={styles.rating}>
+                        <Text style={styles.ratingText}>{product.rating}&#9733;</Text>
+                    </View>
+                    <Text style={styles.ratingCount}>{product.ratingCount.toLocaleString()}</Text>
                 </View>
-                <Text style={styles.ratingCount}>{product.ratingCount.toLocaleString()}</Text>
-            </View>
-            <View style={[styles.rowContainer, styles.ratingContainer]}>
-                <Text style={styles.originalPrice}>pkr {product.originalPrice.toLocaleString()}</Text>
-                <Text style={styles.discountPrice}>pkr {product.discountPrice.toLocaleString()}</Text>
-                <Text style={styles.offerPercentage}>% {product.offerPercentage.toLocaleString()} off</Text>
+                <View style={[styles.rowContainer, styles.ratingContainer]}>
+                    <Text style={styles.originalPrice}>pkr {product.originalPrice.toLocaleString()}</Text>
+                    <Text style={styles.discountPrice}>pkr {product.discountPrice.toLocaleString()}</Text>
+                    <Text style={styles.offerPercentage}>% {product.offerPercentage.toLocaleString()} off</Text>
+                </View>
             </View>
         </View>
     )
