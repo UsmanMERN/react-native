@@ -10,3 +10,4 @@ The projects featured in this repository reflect my proficiency in various aspec
 As a student, I've not only acquired technical skills but also developed problem-solving abilities and an eye for detail. Through iterative development and continuous learning, I've overcome obstacles and refined my approach to building robust and user-friendly mobile applications.
 
 This GitHub repository serves as a testament to my dedication and passion for mastering React Native development. It's a showcase of my hard work, creativity, and determination to excel in the field of mobile app development. Join me in exploring the projects I've completed and witness the evolution of my skills as a React Native developer. Together, let's continue pushing the boundaries of innovation in mobile app development.
+
